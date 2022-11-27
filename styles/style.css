@@ -15,11 +15,11 @@ main {
     background-color: #ffff;
     width: 870px;
     padding: 40px;
-
-
-
 }
-
+hr{
+    border: 1px solid #D1D1D1;
+    margin-top: 30px;
+}
 /* top players style  */
 .top-section-title {
     color: blue;
@@ -47,8 +47,4 @@ main {
 .player-name {
     margin-left: 15px;
     font-size: 18px;
-}
-hr{
-    border: 1px solid #D1D1D1;
-    margin-top: 30px;
 }
