@@ -1,7 +1,10 @@
+/* top players style  */
 .players{   
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
 }
-.players img{
-    width: 10%;
+.player img{
+    width: 56px;
+    height: 56px;
 }
