@@ -100,8 +100,8 @@ hr {
 
 /* course-box */
 .course-box {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    justify-content: space-between;
 }
 
 .course {
@@ -122,4 +122,21 @@ hr {
 .course p{
     margin-top: 0;
     color: rgb(247 166 166);
+}
+.course-icon{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   
+}
+.duration{
+    background-color: lightcoral;
+    padding: 2px 5px;
+    border-radius: 20px;
+}
+.star{
+    color: #FFC014;
+}
+.star span{
+    color: lightgrey;
 }
