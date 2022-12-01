@@ -157,6 +157,9 @@ hr {
 #star-5 {
     color: lightgrey;
 }
+#text{
+    margin-left: 10px;
+}
 .star span{
     color: black;
 }
