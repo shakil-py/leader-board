@@ -17,7 +17,6 @@
     }
     .blogs{
         grid-template-columns: repeat(1,1fr);
-        
         width: 100%;
     }
     .blog  {
@@ -39,6 +38,7 @@
 
 }
 /* sereen up to 688 */
-@media only screen and (max-width:992px) {
+@media only screen and (min-width:668px) and(max-width:992px) {
+
     
 }
