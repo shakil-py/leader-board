@@ -166,3 +166,10 @@ hr {
 .star span {
     color: black;
 }
+footer{
+    text-align: center;
+    margin-top: 50px;
+    background-color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
